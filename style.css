@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #081b31;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.highlighted {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 5px #081b31;
+}
